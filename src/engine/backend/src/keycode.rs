@@ -107,6 +107,7 @@ pub enum KeyCode {
     M,
 
     Esc,
+    Capslock,
     Shift,
     Backspace,
     Enter,
@@ -225,6 +226,7 @@ impl KeyCode {
             117 => Some(Self::PageDown),
 
             9 => Some(Self::Esc),
+            66 => Some(Self::Capslock),
             100 => Some(Self::Henkan),
             102 => Some(Self::Muhenkan),
             64 => Some(Self::AltL),
